@@ -1,0 +1,35 @@
+.box {
+    width:150px;
+    height: 200px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+
+}
+.content-box {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 5px solid rgb(0,139,19);
+    margin-right: 30px;
+
+}
+.border-box{
+    box-sizing: border-box;
+    padding: 20px;
+    border: 5px solid darkblue;
+    margin-right: 20px;
+
+}
+.with-margin{
+    margin: 50px;
+
+}
+.with-padding{
+    padding: 200px;
+    border-radius: 100%;
+    border: darkblue;
+    text-align: center;
+
+}
+.with-border{
+    border: 10px solid red;
+}
