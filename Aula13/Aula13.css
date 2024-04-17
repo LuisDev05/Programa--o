@@ -1,0 +1,14 @@
+/* Seletores Hierárquicos */
+/* Seleciona todos os parágrafos que são descendentes da div com a classe "container" */
+.container p {
+    color: blue;
+    }
+    /* Seleciona apenas parágrafos que são filhos diretos da div com a classe "container" */
+    .container > p {
+    font-weight: bold;
+    }
+    /* Seleciona o parágrafo que vem imediatamente após uma div dentro da div com a classe
+    "container" */
+    .container div + p {
+    text-decoration: underline;
+    }
